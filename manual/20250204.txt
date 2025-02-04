@@ -166,5 +166,30 @@
       chapter08 폴더 생성
       n01background 파일들 생성
 
+  배경에 그라데이션 넣기 :
+    두 가지 이상의 색을 사용하여 두 색을 점점 변화시켜 가며 채색하는 방법
+    n02gradient 파일 생성
+
+  포지셔닝 :
+    HTML로 만든 웹 페이지는 하나의 기기로만 여는 것이 아니라서 위치값이 상대적입니다. 즉 상대적인 요소를 잡는 데 포지셔닝이 중요한 역할을 함.
+
+    1. position 속성 :
+
+      https://showcases.yalco.kr/html-css/02-09/01.html 참조
+
+        사이트 내부를 확인했을 때
+        커다란 div(class= container) 내에 8개의 회색 div과 오렌지색 div(class=orange)가 있고, 오렌지 div 내부에 더 작은 div(class= red)가 있습니다.
+
+        orange / red를 움직이면서 position 개념 학습.
+
+        postion 속성의 경우 HTML 요소들이 해당 페이지에서 어떻게 배치될 지를 지정함. 
+          -> 중요한 점은 : 부모 요소의 것이 자식 속성에게 상속되지 '않음'
+          cf- font-size의 경우 자식에게 상대값 형태(em)으로 상속이 됐던 것과 차이가 있습니다.
+
+          1) static : top 30px left 30px 입력하더라도 페이지 상 변화 x
+            즉 static의 경우에는 원래 존재하는 페이지의 요소대로 따르기 때문에 위치 속성 지정을 하더라도 소용 x -> static(정적)인 상태
+
+          2) relative : 원래 있던 위치를 기준으로 top / left / right 등의 속성값이 적용됨. -> 요소 위치는 이동하는데 공백 위치는 그대로 유지됨. : 회색 상자들은 안움직였습니다.
+
     
   
