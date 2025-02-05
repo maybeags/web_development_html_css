@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 300px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: red;
+  background-color: skyblue;
+  position: fixed;
+  top: calc(50% - 40px);
+  left: calc(50% - 150px);
+}
+/*
+ calc(요소1 - 요소2);     띄어쓰기가 중요한가봅니다
+*/
